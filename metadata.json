@@ -1,0 +1,6 @@
+{
+  "name": "Pilot Stable Egypt — Red Sea Equestrian & Desert Adventures",
+  "description": "Experience authentic horseback and camel riding adventures along the Red Sea coast and desert in Port Ghalib, Marsa Alam, Egypt.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
