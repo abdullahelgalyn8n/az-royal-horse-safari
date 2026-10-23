@@ -69,7 +69,7 @@ export function Navbar() {
             referrerPolicy="no-referrer"
             className="h-11 w-auto object-contain rounded"
           />
-          <span className="font-serif-display text-xl sm:text-2xl font-semibold tracking-tight text-[var(--text-primary)] group-hover:text-[var(--gold-text)] transition-colors">
+          <span className="font-serif-display text-base sm:text-2xl font-semibold tracking-tight text-[var(--text-primary)] group-hover:text-[var(--gold-text)] transition-colors truncate max-w-[150px] sm:max-w-none">
             Pilot Stable Egypt
           </span>
         </Link>
@@ -175,7 +175,7 @@ export function Navbar() {
             title={
               theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'
             }
-            className="p-2.5 rounded-lg border transition-colors flex items-center justify-center shrink-0"
+            className="hidden sm:flex p-2.5 rounded-lg border transition-colors items-center justify-center shrink-0"
             style={{
               borderColor: 'var(--border-subtle)',
               backgroundColor: 'var(--bg-surface)',
